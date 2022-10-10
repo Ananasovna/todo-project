@@ -1,0 +1,32 @@
+@import '../../../styles/style.scss';
+
+.wrapper {
+  @extend %flex-block;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 184px;
+  height: 43px;
+  padding: 8px;
+  background-color: $color-gray-xxl;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+}
+
+.input {
+  width: 130px;
+  font-size: 18px;
+  color: $color-gray-s;
+  background-color: $color-gray-xxl;
+}
+
+.input::-moz-placeholder { 
+  color: $color-gray-s; 
+}
+
+.input::-webkit-input-placeholder { 
+  color: $color-gray-s; 
+}

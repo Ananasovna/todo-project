@@ -1,6 +1,10 @@
-.header{
-  height: 50px;
-  width: 100%;
+@import '../../styles/style.scss';
 
-  background-color: red;
+.header {
+  @extend %flex-block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 13px 9px 16px;
+  background-color: $color-gray-l;
 }
