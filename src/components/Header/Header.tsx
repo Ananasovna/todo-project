@@ -1,13 +1,13 @@
 import React from 'react';
 import style from "./header.module.scss";
 import {Search} from './Search/Search';
-import {User} from './User/User';
+import {UserIcon} from '../../icons/UserIcon/UserIcon';
 
 export const Header = () => {
     return (
         <header className={style.header}>
             <Search />
-            <User />
+            <UserIcon />
         </header>
     );
 };
