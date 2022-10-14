@@ -1,27 +1,24 @@
-@import '../../../styles/style.scss';
-
 .wrapper {
-  @extend %flex-block;
   flex-direction: row;
   align-items: center;
   gap: 8px;
   width: 184px;
   height: 43px;
   padding: 8px;
-  background-color: $color-gray-xxl;
+  background-color:  var(--bg-color);
 }
 
 .input {
   width: 130px;
   font-size: 18px;
-  color: $color-gray-s;
-  background-color: $color-gray-xxl;
+  color:  var(--bg-color);
+  background-color:  var(--bg-color);
 }
 
 .input::-moz-placeholder { 
-  color: $color-gray-s; 
+  color:  var(--bg-color);
 }
 
 .input::-webkit-input-placeholder { 
-  color: $color-gray-s; 
+  color:  var(--bg-color);
 }

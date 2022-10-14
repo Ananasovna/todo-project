@@ -4,6 +4,9 @@ import {Search} from './Search/Search';
 import {UserIcon} from '../../icons/UserIcon/UserIcon';
 
 export const Header = () => {
+
+    // лишння вложенность можно тут все хранить (кроме иконок )
+
     return (
         <header className={style.header}>
             <Search />
