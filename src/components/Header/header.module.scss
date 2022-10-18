@@ -1,9 +1,9 @@
 
 
 .header {
-  flex-direction: row;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 7px 13px 9px 16px;
-  background-color: var(--bg-color);
+  background-color: var(--color-gray-l);
 }

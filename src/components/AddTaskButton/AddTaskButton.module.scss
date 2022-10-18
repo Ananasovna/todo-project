@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 5px;
+  border-top: 3px solid var(--color-gray-3xl);
+  color: var(--color-gray-4xl);
+  font-weight: bold;
+  font-size: 25px;
+  background: var(--color-gray-xs);
+}

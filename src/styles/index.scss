@@ -2,27 +2,11 @@
 @import './colors.scss';
 @import './global.scss';
 
-// я бы убрал все коменты
-
-
 .app {
-  //margin: 0;
-  //font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  //  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  //  sans-serif;
-  //-webkit-font-smoothing: antialiased;
-  //-moz-osx-font-smoothing: grayscale;
-  //background: $color-gray-3xl;
-
+  height: 100vh;
+  padding: 10px 10px;
   font: var(--font-m);
-
-  background: var(--bg-color);
-
-  color: var(--primary-color);
-  min-height: 100vh;
+  color: var(--color-black);
+  background: var(--color-gray-xs);
 }
 
-//code {
-//  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//    monospace;
-//}
