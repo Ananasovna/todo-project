@@ -1,11 +1,11 @@
 import React from 'react';
-import style from "./header.module.scss";
+import styles from "./header.module.scss";
 import {Search} from './Search/Search';
 import {UserIcon} from '../../icons/UserIcon/UserIcon';
 
 export const Header = () => {
     return (
-        <header className={style.header}>
+        <header className={styles.header}>
             <Search />
             <UserIcon />
         </header>

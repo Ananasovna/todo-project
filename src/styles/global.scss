@@ -1,0 +1,27 @@
+:root {
+  --font-family-main: Consolasm, "Times New Roman";
+
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m) /  var(--font-line-m)  var(--font-family-main);
+
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+  --font-l: var(--font-size-l) /  var(--font-line-l)  var(--font-family-main);
+
+  //Размеры
+  --navbar-height: 50px;
+
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-4xl: #4D4D4D;
+  --color-gray-3xl: #717171;
+  --color-gray-xxl: #A9A9A9;
+  --color-gray-xl: #C4C4C4;
+  --color-gray-l: #D1D0D0;
+  --color-gray-m: #E5E5E5;
+  --color-gray-s: #DDDDDD;
+  --color-gray-xs: #ECECEC;
+  --color-white: #FFFFFF;
+}

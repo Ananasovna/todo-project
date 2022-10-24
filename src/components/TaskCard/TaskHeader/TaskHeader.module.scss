@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap:wrap;
+}
+
+.h2 {
+  font: var(--font-l);
+}
+
+.header:after {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 100%;
+  background: var(--color-gray-3xl);
+  margin-top: 5px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}

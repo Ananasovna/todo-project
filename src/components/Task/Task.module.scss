@@ -1,0 +1,14 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px ;
+  border: 2px solid var(--color-gray-xl);
+  border-radius: 6px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
