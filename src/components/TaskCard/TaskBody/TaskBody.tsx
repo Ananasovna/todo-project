@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './TaskBody.module.scss';
 
-export function TaskBody(props: any) {
+export function TaskBody() {
   return (
     <div className={styles.body}>
       <h3 className={styles.h3}>Описание</h3>

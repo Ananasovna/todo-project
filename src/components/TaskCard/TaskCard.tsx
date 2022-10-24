@@ -6,17 +6,20 @@ import { TaskHeader } from './TaskHeader/TaskHeader';
 import { TaskBody } from './TaskBody/TaskBody';
 import { TaskSidebar } from './TaskSidebar/TaskSidebar';
 
-export function TaskCard(props: any) {
+type Props = {
+  taskName?: string;
+  }
+
+export function TaskCard({taskName}: Props) {
   return (
     <div className={styles.wrapper}>
         <div className={styles.bg}></div>
         <div className={styles.taskCard}>
-          <TaskHeader />
+          <TaskHeader taskName='Самая важная задача'/>
           <div className={styles.bodyWrapper}>
             <TaskBody />
             <TaskSidebar />
           </div>
-          
         </div>
     </div>
   );

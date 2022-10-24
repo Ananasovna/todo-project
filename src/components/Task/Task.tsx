@@ -3,10 +3,14 @@ import { ChangeButton } from '../ChangeButton/ChangeButton';
 import { DeleteButton } from '../DeleteButton/DeleteButton';
 import styles from './Task.module.scss';
 
-export function Task(props: any) {
+type Props = {
+  taskName?: string;
+  }
+
+export function Task({taskName}: Props) {
   return (
     <div className={styles.task}>
-      <h3 className={styles.taskName}>{props.taskName}</h3>
+      <h3 className={styles.taskName}>{taskName}</h3>
       <div className={styles.buttonsWrapper}>
         <ChangeButton />
         <DeleteButton />

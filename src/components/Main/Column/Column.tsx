@@ -3,13 +3,19 @@ import { AddTaskButton } from '../../AddTaskButton/AddTaskButton';
 import styles from './Column.module.scss';
 import { Task } from '../../Task/Task';
 
-export function Column(props: any) {
+
+type Props = {
+  text: string; 
+  tasks?: React.ReactNode;
+  }
+
+export function Column({text, tasks}: Props) {
   return (
     <div className={styles.column}>
-      <h2 className={styles.h2}>{props.text}</h2>
+      <h2 className={styles.h2}>{text}</h2>
       <AddTaskButton />
       <div className={styles.taskWrapper}>
-      {props.tasks}
+      {tasks}
       </div>
     </div>
   );
