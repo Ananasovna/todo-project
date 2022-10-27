@@ -1,0 +1,11 @@
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid var(--color-gray-3xl);
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.input {
+  width: 90%;
+}
