@@ -1,0 +1,10 @@
+.button {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 2px;
+  background: var(--color-gray-s);
+}
